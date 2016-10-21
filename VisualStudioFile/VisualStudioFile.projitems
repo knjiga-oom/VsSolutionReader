@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>76655ce4-5a79-45e7-bf1b-082f24ed4040</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VisualStudioFile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CompileItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CppProject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSharpProject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProjectItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Solution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SolutionFolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SolutionItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SolutionItemFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnknownProjectcs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VisitableElement.cs" />
+  </ItemGroup>
+</Project>

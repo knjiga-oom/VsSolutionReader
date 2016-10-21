@@ -5,7 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertoVersionFactory", "ConcertoVersionFactory\ConcertoVersionFactory.csproj", "{34FF73FF-D134-4CB2-9E94-22D430CE43AB}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VisualStudioFile", "VisualStudioFile\VisualStudioFile.shproj", "{76655CE4-5A79-45E7-BF1B-082F24ED4040}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		VisualStudioFile\VisualStudioFile.projitems*{34ff73ff-d134-4cb2-9e94-22d430ce43ab}*SharedItemsImports = 4
+		VisualStudioFile\VisualStudioFile.projitems*{76655ce4-5a79-45e7-bf1b-082f24ed4040}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
