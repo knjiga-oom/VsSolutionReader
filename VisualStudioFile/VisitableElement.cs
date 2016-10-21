@@ -8,6 +8,6 @@ namespace VisualStudioFile
 {
 	abstract class VisitableElement
 	{
-		public abstract void Accept(IVisitor visitor);
+		public abstract void Accept(ISolutionItemVisitor visitor);
 	}
 }

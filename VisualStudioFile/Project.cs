@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 
 namespace VisualStudioFile
 {
-    abstract class Project : SolutionItem
+	abstract class Project : SolutionItem
 	{
 		protected Project(string name, string filename, Guid projectId, Guid projectType)
 			: base(name, filename, projectId, projectType)

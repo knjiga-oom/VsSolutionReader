@@ -7,10 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertoVersionFactory", "C
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VisualStudioFile", "VisualStudioFile\VisualStudioFile.shproj", "{76655CE4-5A79-45E7-BF1B-082F24ED4040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioFileTests", "VisualStudioFileTests\VisualStudioFileTests.csproj", "{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VisualStudioFile\VisualStudioFile.projitems*{34ff73ff-d134-4cb2-9e94-22d430ce43ab}*SharedItemsImports = 4
 		VisualStudioFile\VisualStudioFile.projitems*{76655ce4-5a79-45e7-bf1b-082f24ed4040}*SharedItemsImports = 13
+		VisualStudioFile\VisualStudioFile.projitems*{942ed97c-2180-459b-8bba-c78aef1daec4}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +24,10 @@ Global
 		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

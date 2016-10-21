@@ -11,6 +11,9 @@ namespace VisualStudioFile
 		{
 		}
 
-		public override void Accept(IVisitor visitor) { }
+		public override void Accept(ISolutionItemVisitor visitor)
+		{
+			visitor.Visit(this);
+		}
 	}
 }

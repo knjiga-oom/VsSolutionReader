@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace VisualStudioFile
 {
-	interface IVisitor
+	interface ISolutionItemVisitor
 	{
 		void Visit(CSharpProject project);
+		void Visit(CppProject project);
 	}
 }

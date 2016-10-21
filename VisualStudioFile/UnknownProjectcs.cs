@@ -9,6 +9,6 @@ namespace VisualStudioFile
 		public UnknownProject(string name, string filename, Guid projectId, Guid projectType)
 			: base(name, filename, projectId, projectType) { }
 
-		public override void Accept(IVisitor visitor) { }
+		public override void Accept(ISolutionItemVisitor visitor) { }
 	}
 }

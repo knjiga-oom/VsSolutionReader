@@ -23,7 +23,7 @@ namespace VisualStudioFile
 				Parse(sr);
 		}
 
-		public override void Accept(IVisitor visitor)
+		public override void Accept(ISolutionItemVisitor visitor)
 		{
 			foreach (SolutionItem item in items)
 				item.Accept(visitor);

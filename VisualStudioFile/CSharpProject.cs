@@ -14,7 +14,7 @@ namespace VisualStudioFile
 		public CSharpProject(TextReader reader, string filename = "")
 			: base(reader, filename) { }
 
-		public override void Accept(IVisitor visitor)
+		public override void Accept(ISolutionItemVisitor visitor)
 		{
 			visitor.Visit(this);
 		}

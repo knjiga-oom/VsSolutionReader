@@ -12,9 +12,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)CompileItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CppProject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CSharpProject.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ISolutionItemVisitor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Project.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ProjectItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RcFileVisitor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Solution.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SolutionFolder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SolutionItem.cs" />
