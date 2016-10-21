@@ -9,6 +9,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VisualStudioFile", "VisualS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioFileTests", "VisualStudioFileTests\VisualStudioFileTests.csproj", "{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E09E165-D7C2-428B-ACBC-E3D4549C1FC4}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VisualStudioFile\VisualStudioFile.projitems*{34ff73ff-d134-4cb2-9e94-22d430ce43ab}*SharedItemsImports = 4

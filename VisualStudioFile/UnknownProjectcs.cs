@@ -10,5 +10,12 @@ namespace VisualStudioFile
 			: base(name, filename, projectId, projectType) { }
 
 		public override void Accept(ISolutionItemVisitor visitor) { }
+		protected override IEnumerable<string> ItemXPaths
+		{
+			get
+			{
+				return new string[0];
+			}
+		}
 	}
 }

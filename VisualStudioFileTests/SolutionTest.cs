@@ -2,7 +2,7 @@
 using System.Linq;
 using VisualStudioFile;
 
-namespace UnitTests
+namespace VisualStudioFileTests
 {
     [TestClass]
     public class SolutionTest

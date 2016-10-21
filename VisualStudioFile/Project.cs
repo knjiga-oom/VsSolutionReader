@@ -29,8 +29,8 @@ namespace VisualStudioFile
 			XmlNamespaceManager manager = new XmlNamespaceManager(navigator.NameTable);
 			manager.AddNamespace(NamespacePrefix, "http://schemas.microsoft.com/developer/msbuild/2003");
 
-			Parse(navigator, manager, CompileIncludeXPath);
-			Parse(navigator, manager, PageIncludeXPath);
+			foreach (string xpath in ItemXPaths)
+				Parse(navigator, manager, xpath);
 		}
 
 		private void Parse(XPathNavigator navigator, XmlNamespaceManager manager, string xpath)
@@ -70,7 +70,7 @@ namespace VisualStudioFile
 		private List<ProjectItem> items;
 
 		private const string NamespacePrefix = "ms";
-		private const string CompileIncludeXPath = "/ms:Project/ms:ItemGroup/ms:Compile/@Include";
-		private const string PageIncludeXPath = "/ms:Project/ms:ItemGroup/ms:Page/@Include";
+
+		protected abstract IEnumerable<string> ItemXPaths { get; }
 	}
 }
