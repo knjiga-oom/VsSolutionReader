@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionInfoFactory", "ConcertoVersionFactory\VersionInfoFactory.csproj", "{34FF73FF-D134-4CB2-9E94-22D430CE43AB}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VisualStudioFile", "VisualStudioFile\VisualStudioFile.shproj", "{76655CE4-5A79-45E7-BF1B-082F24ED4040}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioFileTests", "VisualStudioFileTests\VisualStudioFileTests.csproj", "{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}"
@@ -13,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionInfoFactory", "VersionInfoFactory\VersionInfoFactory.csproj", "{34FF73FF-D134-4CB2-9E94-22D430CE43AB}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -25,14 +25,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942ED97C-2180-459B-8BBA-C78AEF1DAEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF73FF-D134-4CB2-9E94-22D430CE43AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
