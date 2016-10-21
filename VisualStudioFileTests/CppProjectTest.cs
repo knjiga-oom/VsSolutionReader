@@ -10,7 +10,7 @@ namespace VisualStudioFileTests
 		[TestMethod]
 		public void CppProject_Items_ReturnsListOfAllCompileItems()
 		{
-			TextResourceReader trr = new TextResourceReader("VisualStudioFileTests.Resources.CustomATIVision.vcxproj");
+			TextResourceReader trr = new TextResourceReader("VisualStudioFileTests.Resources.SomeCppProject.vcxproj");
 			CppProject project = new CppProject(trr);
 			Assert.AreEqual(11, project.Items.Count());
 		}

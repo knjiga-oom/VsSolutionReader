@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertoVersionFactory", "ConcertoVersionFactory\ConcertoVersionFactory.csproj", "{34FF73FF-D134-4CB2-9E94-22D430CE43AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionInfoFactory", "ConcertoVersionFactory\VersionInfoFactory.csproj", "{34FF73FF-D134-4CB2-9E94-22D430CE43AB}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VisualStudioFile", "VisualStudioFile\VisualStudioFile.shproj", "{76655CE4-5A79-45E7-BF1B-082F24ED4040}"
 EndProject

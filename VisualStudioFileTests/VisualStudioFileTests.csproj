@@ -64,8 +64,8 @@
     <EmbeddedResource Include="Resources\WpfApplication1.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\CustomATIVision.vcxproj" />
-    <EmbeddedResource Include="Resources\CustomATIVision.vcxproj.filters" />
+    <EmbeddedResource Include="Resources\SomeCppProject.vcxproj" />
+    <EmbeddedResource Include="Resources\SomeCppProject.vcxproj.filters" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

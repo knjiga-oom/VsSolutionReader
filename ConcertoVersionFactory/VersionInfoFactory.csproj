@@ -7,8 +7,8 @@
     <ProjectGuid>{34FF73FF-D134-4CB2-9E94-22D430CE43AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConcertoVersionFactory</RootNamespace>
-    <AssemblyName>ConcertoVersionFactory</AssemblyName>
+    <RootNamespace>VersionInfoFactory</RootNamespace>
+    <AssemblyName>VersionInfoFactory</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
